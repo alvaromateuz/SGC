@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.Infrastructure", "SGC.Infrastructure\SGC.Infrastructure.csproj", "{8BADD18C-97C7-4EFE-9F34-04872163772F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Infrastructure", "SGC.Infrastructure\SGC.Infrastructure.csproj", "{8BADD18C-97C7-4EFE-9F34-04872163772F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{221B2B3D-E5BF-40E4-9E29-08C912C735B1}"
 EndProject
