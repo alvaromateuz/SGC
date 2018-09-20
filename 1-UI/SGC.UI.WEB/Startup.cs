@@ -33,8 +33,11 @@ namespace SGC.UI.WEB
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddDbContext<ClienteContext>(options => options.UseInMemoryDatabase("InMemoryDataBaseTeste"));
-            services.AddDbContext<ClienteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ClienteContext>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                }
+            );
+            //services.AddTransient<ClienteContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
